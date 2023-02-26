@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.vnote.ui.theme.Purple700
+import com.example.vnote.ui.theme.Teal200
 import com.example.vnote.ui.theme.VNoteTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
             VNoteTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Purple700
+                    color = Teal200
                 ) {
                     Greeting("Android")
                 }
